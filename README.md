@@ -1,7 +1,7 @@
 # PynamicDNS
 Python script to perform dynamic DNS using AWS Route53 on a Raspberry Pi or other Linux hosts
 
-See [this post at tynick.com](https://tynick.com/blog/03-16-2020/pynamicdns-dynamic-dns-with-raspberry-pi-python-and-aws/ "tynick.com PynamicDNS Instructions"
+See [this post at tynick.com](https://tynick.com/blog/03-16-2020/pynamicdns-dynamic-dns-with-raspberry-pi-python-and-aws/ "tynick.com PynamicDNS Instructions") for full instructions.
 
 ## Run Manually
 
