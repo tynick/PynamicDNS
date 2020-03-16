@@ -102,5 +102,6 @@ if public_ip != record_value:
     print("DNS VALUE DOES NOT MATCH PUBLIC IP")
     # change record value to current public_ip
     print(change_record_value(public_ip))
+    print('Check https://console.aws.amazon.com/route53/home#resource-record-sets:{0} to verify your DNS change'.format(ZONE_ID))
 else:
     print("NO CHANGE NEEDED")
