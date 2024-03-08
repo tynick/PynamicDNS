@@ -36,7 +36,9 @@ def get_record_value():
             RecordName=DNS_RECORD,
             RecordType='A',
         )
-    except:
+    except Exception as e:
+        print("Error when sending a request to AWS (test_dns_answer):") 
+        print(e)
         response = 'FAILED'
 
     try:
